@@ -30,19 +30,36 @@ body {
 
 #divBodyFloatContainer {
 	margin: 0 auto;
+	padding: 25px 0;
 	width: 996px;
 }
 
 #divBodyFloatFooter {
-	padding: 25px 0;
+	padding: 25px 0 0;
 	border-top: 1px solid #999;
 }
 
 #divBodyFloatLeft {
 	position: fixed;
-	width: 450px;
+	width: 330px;
+	border-right: 1px solid #999;
+	margin-right: 20px;
 }
 
 #divBodyFloatRight {
-	margin-left: 450px;
+	margin-left: 350px;
+}
+
+/*
+
+	Left Side - Basic Details
+
+*/
+
+#imageName {
+	text-align: center;
+}
+
+.round-img {
+	border-radius: 150px;
 }
