@@ -1,3 +1,10 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 13px/15px;
+}
+
 /*
 
 	Table-less Forums
@@ -5,7 +12,6 @@
 */
 
 .customFloatConatiner {
-
 }
 
 .customFloatLeft {
@@ -18,21 +24,25 @@
 
 /*
     
-    Table-less Forums - Contact Details
+    Table-less Forums - Body
 
 */
 
-#divContactDetailsFloatContainer {
+#divBodyFloatContainer {
+	margin: 0 auto;
+	width: 996px;
 }
 
-#divContactDetailsFloatFooter {
+#divBodyFloatFooter {
+	padding: 25px 0;
+	border-top: 1px solid #999;
 }
 
-#divContactDetailsFloatLeft {
+#divBodyFloatLeft {
+	position: fixed;
+	width: 450px;
 }
 
-#divContactDetailsFloatMiddle {
-}
-
-#divContactDetailsFloatRight {
+#divBodyFloatRight {
+	margin-left: 450px;
 }
