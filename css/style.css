@@ -1,0 +1,38 @@
+/*
+
+	Table-less Forums
+
+*/
+
+.customFloatConatiner {
+
+}
+
+.customFloatLeft {
+	float: left;
+}
+
+.customFloatFooter {
+	clear: both;
+}
+
+/*
+    
+    Table-less Forums - Contact Details
+
+*/
+
+#divContactDetailsFloatContainer {
+}
+
+#divContactDetailsFloatFooter {
+}
+
+#divContactDetailsFloatLeft {
+}
+
+#divContactDetailsFloatMiddle {
+}
+
+#divContactDetailsFloatRight {
+}
