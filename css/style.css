@@ -2,7 +2,15 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial;
-	font-size: 13px/15px;
+	font-size: 15px;
+}
+
+a {
+	color: #0585ff;
+}
+
+a:hover {
+	color: #999;
 }
 
 /*
@@ -11,14 +19,11 @@ body {
 
 */
 
-.customFloatConatiner {
-}
-
-.customFloatLeft {
+.custom-float-left {
 	float: left;
 }
 
-.customFloatFooter {
+.custom-float-footer {
 	clear: both;
 }
 
@@ -28,26 +33,27 @@ body {
 
 */
 
-#divBodyFloatContainer {
+.body-float-container {
 	margin: 0 auto;
 	padding: 25px 0;
 	width: 996px;
 }
 
-#divBodyFloatFooter {
-	padding: 25px 0 0;
+.body-float-footer {
+	padding-top: 25px;
 	border-top: 1px solid #999;
 }
 
-#divBodyFloatLeft {
+.body-float-left {
 	position: fixed;
 	width: 330px;
-	border-right: 1px solid #999;
 	margin-right: 20px;
 }
 
-#divBodyFloatRight {
-	margin-left: 350px;
+.body-float-right {
+	margin: 0 0 10px 350px;
+	padding-left: 25px;
+	border-left: 1px solid #999;
 }
 
 /*
@@ -56,10 +62,37 @@ body {
 
 */
 
-#imageName {
+.image-and-name {
 	text-align: center;
 }
 
 .round-img {
 	border-radius: 150px;
+}
+
+.section-name {
+	/* sets the defaults to zero while keeping the bottom margin */
+	margin: 0 0 15px;
+}
+
+.section-sub-title {
+	margin-bottom: 0;
+}
+
+.body-float-right section {
+	background-color: #0585ff;
+	color: #fff;
+	border-radius: 25px;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+/*
+
+	Key Career Highlight section
+
+*/
+
+.key-career-bulletpoints {
+	margin: 0;
 }
