@@ -7,10 +7,12 @@ body {
 
 a {
 	color: #0585ff;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #999;
+	text-decoration: underline;
 }
 
 /*
@@ -73,6 +75,17 @@ a:hover {
 .section-name {
 	/* sets the defaults to zero while keeping the bottom margin */
 	margin: 0 0 15px;
+}
+
+.footer-section {
+	border-top: 1px solid #fff;
+	margin-top: 15px;
+	padding: 10px 10px 0 0;
+	text-align: right; 
+}
+
+.footer-section a {
+	color: #fff;
 }
 
 .section-sub-title {
